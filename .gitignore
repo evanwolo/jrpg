@@ -1,29 +1,90 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Java build output
+/bin/
+/target/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# IntelliJ IDEA
+/.idea/
+/*.iml
 
-### NetBeans ###
+# Eclipse
+/.settings/
+/.classpath
+/.project
+
+# VS Code
+/.vscode/
+
+# Gradle
+.gradle/
+/build/
+
+# Maven
+/logs/
+*.log
+!keep.log
+*.class
+*.jar
+*.war
+*.ear
+
+# NetBeans
 /nbproject/private/
-/nbbuild/
+/build/
 /dist/
-/nbdist/
-/.nb-gradle/
 
-### VS Code ###
-.vscode/
+# Logs
+logs/
+/*.log
 
-### Mac OS ###
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Dependency directories
+/node_modules/
+/out/
+/lib/
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.pid
+*.gz
+
+# Coverage reports
+/coverage/
+/jacoco.exec
+
+# IDE and editor settings
+*.idea/
+/*.iml
+*.sublime-workspace
+
+# Generated files
+*.class
+*.log
+*.war
+*.jar
+*.ear
+*.db
+
+# Debug and runtime files
+hs_err_pid*
+replay_pid*
+
+# Docker
+/.docker/
+
+# Temporary and system files
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+
+# JetBrains IDEs
+.idea
+*.iml
+*.ipr
+*.iws
